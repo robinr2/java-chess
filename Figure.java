@@ -30,11 +30,6 @@ public class Figure {
         }
     }
     
-    public enum DistanceOption {
-        ABSOLUTE,
-        NON_ABSOLUTE;
-    }
-    
     public Figure(boolean black) {
         this.setBlack(black);
     }
